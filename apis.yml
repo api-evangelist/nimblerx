@@ -1,8 +1,28 @@
 aid: nimblerx
 name: Nimblerx
-description: Nimblerx is a company surfaced as a portfolio company of y-combinator and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  NimbleRx (a Swoop company) is a digital pharmacy technology platform that modernizes the
+  prescription experience for independent and regional pharmacies. Patients use the NimbleRx
+  mobile app to manage prescriptions and schedule discreet delivery or in-store pickup, while
+  pharmacies get digital ordering, mobile checkout, patient communications, marketing, and
+  revenue-optimization tools. Pharmaceutical manufacturers run adherence, abandonment-reduction,
+  and awareness programs on the platform. NimbleRx reports improving medication adherence by
+  26-40 percent while reducing pharmacist administrative burden. It operates a consumer patient
+  app (patient.nimblerx.com) and a pharmacy admin console (admin.nimblerx.com); as of this profile
+  it publishes no public developer API, documentation, or SDKs. Backed by Y Combinator.
 url: https://raw.githubusercontent.com/api-evangelist/nimblerx/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://cdn.prod.website-files.com/6442ac7739465334ecc14b3c/6a10a9aaf310cf624c71edca_nimble-swoop-logo.svg
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
@@ -11,12 +31,37 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Pharmacy
+- Healthcare
+- Prescriptions
+- Digital Health
+- Medication Adherence
+- Pharmacy Software
+- Ecommerce Checkout
 apis: []
+common:
+- type: Website
+  url: https://www.nimblerx.com
+- type: About
+  url: https://www.nimblerx.com/about
+- type: Blog
+  url: https://www.nimblerx.com/blog
+- type: Support
+  url: https://www.nimblerx.com/contact
+- type: TermsOfService
+  url: https://www.nimblerx.com/legal/terms-of-service
+- type: PrivacyPolicy
+  url: https://www.nimblerx.com/legal/privacy-policy
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 0
+  pass: local-v1
